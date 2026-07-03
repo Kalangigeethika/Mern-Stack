@@ -1,0 +1,14 @@
+let x=7
+let isPrime=true
+for (let i=2;i<x**0.5;i++){
+    if (x%i==0){
+        isPrime=false
+        break
+    }
+}
+if (isPrime){
+    console.log(x+" is a prime number")
+}
+else{
+    console.log(x+" is not a prime number")
+}
